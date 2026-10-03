@@ -3,7 +3,7 @@
 
 Computational companion to the manuscript
 
-> A. Alsammani, M. A. Y. Mohammed, A. Ali, *Numerical, Parametric, and Measurement Uncertainty in Axial-Dispersion Reactor Simulations: A Verified Finite-Volume and Quasi-Monte Carlo Study* (manuscript in preparation; source in [`manuscript/`](manuscript/)).
+> A. Alsammani, M. A. Y. Mohammed, A. Ali, *Verification and Uncertainty Quantification in Axial-Dispersion Reactor Models* (manuscript in preparation; source in [`manuscript/`](manuscript/)).
 
 The repository contains a small, tested Python package (`pfr_uq`) and four Jupyter notebooks. Together they regenerate every number, table and figure of the manuscript from scratch.
 
