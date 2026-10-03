@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: pfr_uq
+Version: 1.0.0
+Summary: Verified finite-volume solver and uncertainty quantification for the axial-dispersion (advection-dispersion-reaction) reactor model with Danckwerts boundary conditions
+Author: Mohammed A. Y. Mohammed, Alsadig Ali, Abdallah Alsammani
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.0
+Requires-Dist: scipy>=1.15
+Requires-Dist: pandas>=2.2
+Requires-Dist: matplotlib>=3.9
+Requires-Dist: sympy>=1.13

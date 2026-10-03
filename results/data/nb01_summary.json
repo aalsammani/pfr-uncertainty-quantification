@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "C_in": 1.0,
+    "D": 0.01,
+    "Da": 1.0,
+    "L": 1.0,
+    "Pe": 10.0,
+    "k": 0.1,
+    "tau_a": 10.0,
+    "tau_d": 100.0,
+    "tau_r": 10.0,
+    "u": 0.1
+  },
+  "cn_matrix_norm_max": 0.9999899618239765,
+  "cstr_baseline_conversion": 0.5,
+  "discrete_energy_identity_max_diff": 2.842170943040401e-14,
+  "ftcs_demo": {
+    "(i) pure advection": {
+      "CN min C": -0.33986155329626655,
+      "CN ||C^n||/||C^0||": 0.9956041320384881,
+      "FTCS min C": -264647820.53286946,
+      "FTCS ||C^n||/||C^0||": 220260224.01151422,
+      "alpha": 0.0,
+      "beta": 0.4,
+      "finite-domain spectral radius": 1.0770141785877339,
+      "steps": 300,
+      "von Neumann max|g|": 1.0770329614269007
+    },
+    "(ii) adv.-dispersion": {
+      "CN min C": -6.21924993040861e-06,
+      "CN ||C^n||/||C^0||": 0.8555711792308913,
+      "FTCS min C": -4.980260663896599,
+      "FTCS ||C^n||/||C^0||": 3.6918823640522245,
+      "alpha": 0.25,
+      "beta": 0.8,
+      "finite-domain spectral radius": 0.9258393451956297,
+      "steps": 150,
+      "von Neumann max|g|": 1.0248201842586468
+    }
+  },
+  "ftcs_region_check": {
+    "disagreements": 0,
+    "kappa0_closed_form_agrees": true,
+    "max_dev_disagreements": 0.0,
+    "samples": 20000
+  },
+  "legacy_centroid_t3": {
+    "corrected": 0.7968338065846593,
+    "exact": 0.8,
+    "original": 0.20423504547967317
+  },
+  "max_eig_sym_A": -0.0010264663656558242,
+  "original_steady_formula": {
+    "dCdx_at_L": -0.00019688101424700753,
+    "ode_residual_x0.3": 0.08257673252802966
+  },
+  "pfr_baseline_conversion": 0.6321205588285577,
+  "steady_baseline_conversion": 0.6027332266938733,
+  "steady_baseline_outlet_ratio": 0.3972667733061267,
+  "stencil": {
+    "C_i": "-2*alpha - kappa + 1",
+    "C_{i+1}": "(2*alpha - beta)/2",
+    "C_{i-1}": "(2*alpha + beta)/2"
+  }
+}

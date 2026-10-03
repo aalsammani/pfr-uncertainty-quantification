@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript (in preparation) and this repository."
+title: "pfr_uq: verified finite-volume simulation and uncertainty quantification for the axial-dispersion reactor"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Mohammed
+    given-names: Mohammed A. Y.
+    affiliation: "Department of Mathematics and Statistics, Georgia State University"
+  - family-names: Ali
+    given-names: Alsadig
+    affiliation: "Department of Mathematics, Hampton University"
+  - family-names: Alsammani
+    given-names: Abdallah
+    affiliation: "Department of Mathematical Sciences, Delaware State University"
+preferred-citation:
+  type: unpublished
+  title: "Numerical, Parametric, and Measurement Uncertainty in Axial-Dispersion Reactor Simulations: A Verified Finite-Volume and Quasi-Monte Carlo Study"
+  authors:
+    - family-names: Mohammed
+      given-names: Mohammed A. Y.
+    - family-names: Ali
+      given-names: Alsadig
+    - family-names: Alsammani
+      given-names: Abdallah
+  notes: "Manuscript in preparation."

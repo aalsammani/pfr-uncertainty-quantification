@@ -1,0 +1,11 @@
+symbol,definition,value,unit,rationale
+L,reactor length,1.0,m,illustrative laboratory scale
+u,mean axial velocity,0.1,m s^-1,illustrative
+D,axial dispersion coefficient,0.01,m^2 s^-1,illustrative; gives Pe = 10 (strong back-mixing)
+k,first-order rate constant,0.1,s^-1,illustrative; gives Da = 1
+C_in,feed concentration,1.0,mol m^-3,reference scale
+tau_a,space time L/u,10.0,s,derived
+tau_d,dispersion time L^2/D,100.0,s,derived
+tau_r,reaction time 1/k,10.0,s,derived
+Pe,Peclet number uL/D,10.0,-,derived
+Da,Damkohler number kL/u,1.0,-,derived

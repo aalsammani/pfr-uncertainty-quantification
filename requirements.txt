@@ -1,0 +1,23 @@
+# Exact versions used to produce every result in the repository (Python 3.14.3).
+# Install with:  python -m pip install -r requirements.txt
+# The last line installs the local package `pfr_uq` (src/pfr_uq) in editable mode.
+
+# scientific stack
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+matplotlib==3.11.2
+sympy==1.14.0
+
+# executing the notebooks
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.4.0
+jupyter_client==8.10.0
+
+# tests
+pytest==9.1.1
+
+# this repository
+-e .
