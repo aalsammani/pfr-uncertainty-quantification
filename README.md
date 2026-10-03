@@ -3,7 +3,7 @@
 
 Computational companion to the manuscript
 
-> M. A. Y. Mohammed, A. Ali, A. Alsammani, *Numerical, Parametric, and Measurement Uncertainty in Axial-Dispersion Reactor Simulations: A Verified Finite-Volume and Quasi-Monte Carlo Study* (manuscript in preparation; source in [`manuscript/`](manuscript/)).
+> A. Alsammani, M. A. Y. Mohammed, A. Ali, *Numerical, Parametric, and Measurement Uncertainty in Axial-Dispersion Reactor Simulations: A Verified Finite-Volume and Quasi-Monte Carlo Study* (manuscript in preparation; source in [`manuscript/`](manuscript/)).
 
 The repository contains a small, tested Python package (`pfr_uq`) and four Jupyter notebooks. Together they regenerate every number, table and figure of the manuscript from scratch.
 
@@ -15,7 +15,7 @@ The axial-dispersion model is the standard one-dimensional description of non-id
 
 - the parameters (velocity, dispersion coefficient, kinetics) are imperfectly known;
 - measurements carry random noise and systematic instrument offsets;
-- the numerical solution has a discretisation error;
+- the numerical solution has a discretization error;
 - Monte Carlo estimates add a sampling error.
 
 This project keeps these sources apart. It first verifies the solver rigorously, and only then propagates and compares the uncertainties.
