@@ -7,7 +7,7 @@ Computational companion to the manuscript
 
 The repository contains a small, tested Python package (`pfr_uq`) and four Jupyter notebooks. Together they regenerate every number, table, and figure of the manuscript from scratch.
 
-!(https://github.com/aalsammani/pfr-uncertainty-quantification/blob/main/figures/fig07_regime_uq.png)
+(https://github.com/aalsammani/pfr-uncertainty-quantification/blob/main/figures/fig07_regime_uq.png)
 
 ## Scientific motivation
 
