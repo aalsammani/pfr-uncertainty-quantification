@@ -22,7 +22,7 @@ The axial-dispersion model provides a one-dimensional description of transport a
 - random measurement noise; and
 - systematic sensor offsets.
 
-This project treats these sources separately. The numerical solver is first verified against analytical and manufactured benchmarks. Parametric uncertainty is then propagated through the verified model, variance-based sensitivity is quantified using Sobol' indices, Monte Carlo (MC) and randomized quasi-Monte Carlo (RQMC) estimators are compared using identical input distributions, and the effects of measurement error on parameter inference are investigated.
+This project treats these sources separately. We first verify the numerical solver against analytical and manufactured benchmarks. We then propagate parametric uncertainty through the verified model, quantify variance-based sensitivity using Sobol' indices, compare Monte Carlo (MC) and randomized quasi-Monte Carlo (RQMC) estimators using identical input distributions, and investigate the effects of measurement error on parameter inference.
 
 ---
 
@@ -30,36 +30,36 @@ This project treats these sources separately. The numerical solver is first veri
 
 For the concentration \(C(x,t)\) in a reactor of length \(L\), with constant axial velocity \(u\), axial-dispersion coefficient \(D\), and first-order reaction rate constant \(k\),
 
-$$
+\[
 \frac{\partial C}{\partial t}
 +u\frac{\partial C}{\partial x}
 =
 D\frac{\partial^2 C}{\partial x^2}
 -kC,
 \qquad 0<x<L.
-$$
+\]
 
 The closed–closed Danckwerts boundary conditions are
 
-$$
+\[
 uC(0^+,t)-D\,\partial_x C(0^+,t)
 =
 uC_{\mathrm{in}}(t),
 \qquad
 \partial_x C(L,t)=0.
-$$
+\]
 
 The principal dimensionless groups are the Péclet and Damköhler numbers,
 
-$$
+\[
 \mathrm{Pe}=\frac{uL}{D},
 \qquad
 \mathrm{Da}=\frac{kL}{u}.
-$$
+\]
 
 For the steady problem, the outlet-to-inlet concentration ratio is given by the Wehner–Wilhelm expression
 
-$$
+\[
 \frac{C(L)}{C_{\mathrm{in}}}
 =
 \frac{4q\,e^{\mathrm{Pe}/2}}
@@ -67,7 +67,7 @@ $$
 -(1-q)^2e^{-q\mathrm{Pe}/2}},
 \qquad
 q=\sqrt{1+\frac{4\mathrm{Da}}{\mathrm{Pe}}}.
-$$
+\]
 
 ---
 
