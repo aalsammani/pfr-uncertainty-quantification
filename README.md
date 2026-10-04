@@ -18,7 +18,7 @@ The axial-dispersion model is the standard one-dimensional description of non-id
 - the numerical solution has a discretization error;
 - Monte Carlo estimates add a sampling error.
 
-This project keeps these sources apart. It first verifies the solver rigorously, and only then propagates and compares the uncertainties.
+This project keeps these sources apart. It first rigorously verifies the solver, then propagates and compares the uncertainties.
 
 ## Mathematical model
 
