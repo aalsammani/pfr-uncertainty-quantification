@@ -30,14 +30,12 @@ This project treats these sources separately. We first verify the numerical solv
 
 For the concentration \(C(x,t)\) in a reactor of length \(L\), with constant axial velocity \(u\), axial-dispersion coefficient \(D\), and first-order reaction rate constant \(k\),
 
-\[
-\frac{\partial C}{\partial t}
+\[ \frac{\partial C}{\partial t}
 +u\frac{\partial C}{\partial x}
 =
 D\frac{\partial^2 C}{\partial x^2}
 -kC,
-\qquad 0<x<L.
-\]
+\qquad 0<x<L. \]
 
 The closed–closed Danckwerts boundary conditions are
 
